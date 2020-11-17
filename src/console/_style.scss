@@ -9,7 +9,21 @@
   }
 
 .collapsible-trigger {
-  background-color: rgb(244, 247, 255)
+  background-color: theme-color("primary", "background");
+}
+
+.enrollment-row {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
 }
 
 @include media-breakpoint-up(md) {

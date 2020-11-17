@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "@cospired/i18n-iso-languages": "^2.0.2",
+    "@edx/brand": "git+https://git@github.com/edx/brand-edx.org.git#master",
     "@edx/frontend-component-footer": "^10.0.11",
     "@edx/frontend-component-header": "^2.0.5",
     "@edx/frontend-platform": "^1.5.3",
